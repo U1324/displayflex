@@ -1,0 +1,94 @@
+.b-image {
+  height: 324px;
+  width: 100%;
+  background-image: url("../image/image1.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.b-image .t-image {
+  color: white;
+  font-size: 14px;
+  font-weight: 86px;
+  top: 30px;
+  left: 139px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+.b-image .t-image .nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 437px;
+}
+
+.b-image .t-image .nav-ul .button-h {
+  color: #5863F8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.b-image .t-image .nav-ul .nav-li {
+  margin-left: 47px;
+  font-size: 12px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.b-image .about {
+  color: white;
+  font-size: 42px;
+  /* margin-top: 96px; */
+  margin-left: 139px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 1089px;
+  margin: auto;
+}
+
+li:nth-child(n+1) {
+  padding-right: 1px;
+}
+
+li:nth-child(n+2) {
+  padding-right: 2px;
+}
+
+li:nth-child(n+3) {
+  padding-right: 3px;
+}
+
+li:nth-child(n+4) {
+  padding-right: 4px;
+}
+
+li:nth-child(n+5) {
+  padding-right: 5px;
+}
+
+li:nth-child(n+6) {
+  padding-right: 6px;
+}
+
+li:nth-child(n+7) {
+  padding-right: 7px;
+}
+
+li:nth-child(n+8) {
+  padding-right: 8px;
+}
+
+li:nth-child(n+9) {
+  padding-right: 9px;
+}
+
+li:nth-child(n+10) {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=scss-style.css.map */

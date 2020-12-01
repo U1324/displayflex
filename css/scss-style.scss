@@ -1,0 +1,50 @@
+.b-image {
+    height: 324px;
+    width: 100%;
+    background-image: url('../image/image1.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    .t-image {
+        color: white;
+        font-size: 14px;
+        font-weight: 86px;
+        top: 30px;
+        left: 139px;
+        position: absolute;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        .nav-ul {
+            display: flex;
+            margin-left: 437px;
+            .button-h {
+                color: #5863F8;
+                font-family: 'Poppins', sans-serif;
+                font-size: 12px;
+            }
+            .nav-li {
+                margin-left: 47px;
+                font-size: 12px;
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+    .about {
+        color: white;
+        font-size: 42px;
+        /* margin-top: 96px; */
+        margin-left: 139px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.container {
+    width: 1089px;
+    margin: auto;
+}
+
+@for $i from 1 through 10 {
+    li:nth-child(n+#{$i}) {
+        padding-right: #{$i}px;
+    }
+}
